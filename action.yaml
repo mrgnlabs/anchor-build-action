@@ -1,0 +1,17 @@
+name: 'Anchor Build'
+author: 'MRGN Labs'
+description: 'Run an anchor build command'
+branding:
+  icon: anchor
+  color: blue
+inputs:
+  args:
+    description: 'anchor build arguments'
+    required: false
+    default: ''
+runs:
+  using: 'docker'
+  image: 'mrgnlabs/solana-dev:0.0.2-alpha'
+  entrypoint: shell-exec
+  args: 
+    - 'anchor build ${{ inputs.args }}'
