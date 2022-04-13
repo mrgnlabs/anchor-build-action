@@ -1,9 +1,9 @@
-name: 'Anchor Build'
+name: 'Solana Anchor Build'
 author: 'MRGN Labs'
 description: 'Run an anchor build command'
 branding:
   icon: anchor
-  color: blue
+  color: red
 inputs:
   args:
     description: 'anchor build arguments'
