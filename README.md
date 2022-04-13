@@ -8,7 +8,7 @@ build:
     steps:
       - uses: actions/checkout@v2
       - name: Anchor Build 
-        uses: mrgnlabs/anchor-build-action@v0.2
+        uses: mrgnlabs/anchor-build-action@v0.3
         with:
             args: <custom build args>
 ```
