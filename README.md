@@ -9,4 +9,6 @@ build:
       - uses: actions/checkout@v2
       - name: Anchor Build 
         uses: mrgnlabs/anchor-build-action@v0.2
+        with:
+            args: <custom build args>
 ```
