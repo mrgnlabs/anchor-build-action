@@ -1,6 +1,6 @@
 name: 'Solana Anchor Build'
 author: 'MRGN Labs'
-description: 'Run an anchor build command'
+description: 'Build a Solana program with Anchor'
 branding:
   icon: anchor
   color: red
